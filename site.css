@@ -1,19 +1,51 @@
 body {
-    font-family: 'Crimson Text', sans-serif;
+    font-family: 'Crimson Text', 'Times New Roman', sans-serif;
     font-size: 120%;
     background-color: #F2FFFC;  
 }
 
 h1, h2 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
 }
 
-h1 {
+main h1 {
     text-align: center;
     background-color: #851644;
     color: #FFF;
 }
 
+main a {
+    color: #851944;
+}
+
 p {
     text-align: justify;
+}
+
+blockquote {
+    background-color: #D9E5E3;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+article footer {
+    color: #000;
+    background-color: #D9E5E3;
+}
+
+aside a {
+    color: inherit;
+    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+}
+
+nav a {
+    color: inherit;
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
 }
