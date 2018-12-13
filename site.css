@@ -1,7 +1,8 @@
 body {
     font-family: 'Crimson Text', 'Times New Roman', sans-serif;
     font-size: 120%;
-    background-color: #F2FFFC;  
+    background-color: #F2FFFC;
+    line-height: 1.5;
 }
 
 h1, h2 {
@@ -12,6 +13,9 @@ main h1 {
     text-align: center;
     background-color: #851644;
     color: #FFF;
+    padding: 20px;
+    margin: 0px;
+    border-bottom: 10px solid #000;
 }
 
 main a {
@@ -21,14 +25,24 @@ main a {
 p {
     text-align: justify;
 }
+main div {
+    width: 720px;
+    margin: auto;
+}
 
 blockquote {
     background-color: #D9E5E3;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
 }
 
 article footer {
@@ -43,6 +57,10 @@ aside a {
 
 nav a {
     color: inherit;
+}
+
+nav ul {
+    list-style-type: none;
 }
 
 footer {
