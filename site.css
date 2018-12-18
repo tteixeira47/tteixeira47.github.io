@@ -1,69 +1,71 @@
 body {
-    font-family: 'Crimson Text', 'Times New Roman', sans-serif;
-    font-size: 120%;
-    background-color: #F2FFFC;
-    line-height: 1.5;
+  font-family: 'Crimson Text', 'Times New Roman', sans-serif;
+  font-size: 120%;
+  background-color: #F2FFFC;
+  line-height: 1.5;
 }
 
 h1, h2 {
-    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+  font-family: 'Open Sans Condensed', 'Arial', sans-serif;
 }
 
 main h1 {
-    text-align: center;
-    background-color: #851644;
-    color: #FFF;
-    padding: 20px;
-    margin: 0px;
-    border-bottom: 10px solid #000;
+  text-align: center;
+  background-color: #851644;
+  color: #FFF;
+  padding: 20px;
+  margin: 0px;
+  border-bottom: 10px solid #000;
 }
 
 main a {
-    color: #851944;
+  color: #851944;
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
+
 main div {
-    width: 720px;
-    margin: auto;
+  width: 720px;
+  margin: auto;
 }
 
 blockquote {
-    background-color: #D9E5E3;
-    padding: 16px;
-    border: 10px solid #C2CCCA;
-    width: 250px;
-    margin: 0px;
-    box-sizing: border-box;
+  background-color: #D9E5E3;
+  padding: 16px;
+  border: 10px solid #C2CCCA;
+  width: 250px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 aside {
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-    text-align: center;
+  background-color: #3C1D3D;
+  color: #F2FFFC;
+  text-align: center;
 }
 
 article footer {
-    color: #000;
-    background-color: #D9E5E3;
+  color: #000;
+  background-color: #D9E5E3;
 }
 
 aside a {
-    color: inherit;
-    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+  color: inherit;
+  font-family: 'Open Sans Condensed', 'Arial', sans-serif;
 }
 
 nav a {
-    color: inherit;
+  color: inherit;
 }
 
 nav ul {
-    list-style-type: none;
+  list-style-type: none;
+  padding: 0px;
 }
 
 footer {
-    background-color: #000;
-    color: #F2FFFC;
+  background-color: #000;
+  color: #F2FFFC;
 }
