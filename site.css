@@ -86,10 +86,6 @@ p {
   margin-bottom: 20px;
 }
 
-#tag {
-  text-decoration: none;
-}
-
 #rodape {
   background-color: #000;
   color: #F2FFFC;
@@ -104,4 +100,8 @@ p {
   font-size: 30px;
   background-color: #E6E7E8;
   text-decoration: none; 
+}
+
+.tag a {
+  text-decoration: none;
 }
