@@ -76,13 +76,17 @@ aside h1 {
   margin: 25px;
 }
 
-nav a {
-  color: inherit;
+aside li {
+  display: inline-block;
 }
 
 aside ul {
   list-style-type: none;
   padding: 0px;
+}
+
+nav a {
+  color: inherit;
 }
 
 footer {
