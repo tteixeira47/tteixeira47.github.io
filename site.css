@@ -55,11 +55,6 @@ blockquote {
   box-sizing: border-box;
 }
 
-article footer {
-  color: #000;
-  background-color: #D9E5E3;
-}
-
 aside {
   background-color: #3C1D3D;
   color: #F2FFFC;
@@ -89,7 +84,8 @@ nav a {
   color: inherit;
 }
 
-footer {
+#rodape {
   background-color: #000;
   color: #F2FFFC;
+  padding: 20px;
 }
