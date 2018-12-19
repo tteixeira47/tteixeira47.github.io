@@ -93,7 +93,7 @@ p {
 }
 
 .leia-mais {
-  font-size: 150%;
   text-align: center;
+  display: block;
 }
 
