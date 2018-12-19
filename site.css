@@ -19,6 +19,14 @@ main h1 {
   font-size: 60px;
 }
 
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
 main h2 {
   font-size: 30px;
 }
