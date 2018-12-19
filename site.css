@@ -9,7 +9,15 @@ h1, h2 {
   font-family: 'Open Sans Condensed', 'Arial', sans-serif;
 }
 
-main h1 {
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.titulo-da-pagina h1 {
   text-align: center;
   background-color: #851644;
   color: #FFF;
@@ -19,19 +27,17 @@ main h1 {
   font-size: 60px;
 }
 
-strong {
-  font-weight: bold;
+.linha-do-tempo {
+  width: 720px;
+  margin: auto;
+  padding: 30px 0px;
 }
 
-em {
-  font-style: italic;
-}
-
-main h2 {
+.linha-do-tempo h2 {
   font-size: 30px;
 }
 
-main a {
+.linha-do-tempo a {
   color: #851944;
 }
 
@@ -40,13 +46,7 @@ p {
   margin: 20px 0px;
 }
 
-main div {
-  width: 720px;
-  margin: auto;
-  padding: 30px 0px;
-}
-
-blockquote {
+.citacao-bio {
   background-color: #D9E5E3;
   margin: 20px 40px;
   padding: 20px;
@@ -55,33 +55,35 @@ blockquote {
   box-sizing: border-box;
 }
 
-aside {
+.navegacao-site {
   background-color: #3C1D3D;
   color: #F2FFFC;
   text-align: center;
 }
 
-aside a {
+.navegacao-site a {
   color: inherit;
   font-family: 'Open Sans Condensed', 'Arial', sans-serif;
 }
 
-aside h1 {
+.navegacao-site h1 {
   font-size: 30px;
   margin: 25px;
+}
+
+.navegacao-site ul {
+  list-style-type: none;
+  padding: 0px;
 }
 
 .social-media li {
   display: inline-block;
 }
 
-aside ul {
-  list-style-type: none;
-  padding: 0px;
-}
-
-nav a {
-  color: inherit;
+.post-blog {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
 }
 
 #rodape {
@@ -90,8 +92,3 @@ nav a {
   padding: 20px;
 }
 
-article {
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 20px;
-}
