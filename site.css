@@ -86,6 +86,10 @@ p {
   margin-bottom: 20px;
 }
 
+#tag {
+  text-decoration: none;
+}
+
 #rodape {
   background-color: #000;
   color: #F2FFFC;
