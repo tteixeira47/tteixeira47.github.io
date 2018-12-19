@@ -46,20 +46,25 @@ blockquote {
   box-sizing: border-box;
 }
 
+article footer {
+  color: #000;
+  background-color: #D9E5E3;
+}
+
 aside {
   background-color: #3C1D3D;
   color: #F2FFFC;
   text-align: center;
 }
 
-article footer {
-  color: #000;
-  background-color: #D9E5E3;
-}
-
 aside a {
   color: inherit;
   font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+}
+
+aside h1 {
+  font-size: 30px;
+  margin: 25px;
 }
 
 nav a {
