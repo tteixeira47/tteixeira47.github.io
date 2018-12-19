@@ -17,6 +17,11 @@ em {
   font-style: italic;
 }
 
+p {
+  text-align: justify;
+  margin: 20px 0px;
+}
+
 .titulo-da-pagina h1 {
   text-align: center;
   background-color: #851644;
@@ -39,11 +44,6 @@ em {
 
 .linha-do-tempo a {
   color: #851944;
-}
-
-p {
-  text-align: justify;
-  margin: 20px 0px;
 }
 
 .citacao-bio {
