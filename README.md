@@ -32,9 +32,7 @@ O seletor de classe é o ponto (.)
   display: inline-block;
 }
 ```
-
-::: social-media
-<img src="github.png" alt="Github">
-:::
-
-
+É possível usar mais de uma classe no elemento
+```html
+<ul class="social-media social-media-rodape">
+```
