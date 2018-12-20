@@ -57,3 +57,20 @@ Substituir o texto de um link por uma imagem
   text-indent: -9999px;
 }
 ```
+
+### Flutuando elementos
+
+Para que elementos possam flutuar no seu bloco, é utliizado o seguinte CSS:
+
+```css
+float: right;
+```
+Para impedir que um elemento tenha um float na sua linha:
+
+```css
+clear: right;
+```
+
+>Todos os elementos flutuantes ficam em uma linha
+
+>Corrigir o posicionamento dos elementos não flutuantes é chamado de *clearfix*
