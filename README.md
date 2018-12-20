@@ -37,7 +37,7 @@ O seletor de classe é o ponto (.)
 <ul class="social-media social-media-rodape">
 ```
 
-## 9 Nem tudo é o que parece
+## 9 - Nem tudo é o que parece
 
 Para deixar o texto em caixa alte é possível usar o seguinte CSS:
 
@@ -74,3 +74,4 @@ clear: right;
 >Todos os elementos flutuantes ficam em uma linha
 
 >Corrigir o posicionamento dos elementos não flutuantes é chamado de *clearfix*
+
