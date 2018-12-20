@@ -70,8 +70,14 @@ p {
   color: #F2FFFC;
   text-align: center;
   padding: 5px;
-  clear: right;
+  border-left: 10px solid #000;
+  border-bottom: 10px solid #000;
   box-sizing: border-box;
+}
+
+.foto-joao {
+  border-left: 10px solid #000;
+  border-bottom: 10px solid #000;
 }
 
 .navegacao-site a {
@@ -94,6 +100,7 @@ p {
 .navegacao-site, img {
   float: right;
   width: 15%;
+  box-sizing: border-box;
 }
 
 main {
@@ -149,4 +156,10 @@ main {
 
 .tag a {
   text-decoration: none;
+}
+
+cite {
+  text-align: right;
+  display: block;
+  font-style: italic;
 }
