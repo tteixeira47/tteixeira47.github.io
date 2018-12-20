@@ -44,3 +44,16 @@ Para deixar o texto em caixa alte é possível usar o seguinte CSS:
 ```css
 text-transform: uppercase;
 ```
+
+### Image Replacement
+
+Substituir o texto de um link por uma imagem
+
+```css
+.social-media a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+```

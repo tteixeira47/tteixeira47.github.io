@@ -65,11 +65,13 @@ p {
 .navegacao-site a {
   color: inherit;
   font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+  text-transform: lowercase;
 }
 
 .navegacao-site h1 {
   font-size: 30px;
   margin: 25px;
+  text-transform: uppercase;
 }
 
 .navegacao-site ul {
@@ -85,7 +87,7 @@ p {
   width: 40px;
   height: 40px;
   display: inline-block;
-  text-indent: -9999px;
+  text-indent: -99999px;
 }
 
 .github {
