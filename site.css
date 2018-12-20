@@ -38,6 +38,7 @@ p {
   width: 720px;
   margin: auto;
   padding: 30px 0px;
+  padding-bottom: 80px;
 }
 
 .container h2 {
@@ -73,11 +74,17 @@ p {
   border-left: 10px solid #000;
   border-bottom: 10px solid #000;
   box-sizing: border-box;
+  width: 15%;
+  position: relative;
+  top: 310px;
 }
 
 .foto-joao {
   border-left: 10px solid #000;
   border-bottom: 10px solid #000;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .navegacao-site a {
@@ -99,7 +106,6 @@ p {
 
 .navegacao-site, img {
   float: right;
-  width: 15%;
   box-sizing: border-box;
 }
 
@@ -142,6 +148,9 @@ main {
   color: #F2FFFC;
   padding: 20px;
   clear: both;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 .leia-mais {
