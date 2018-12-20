@@ -1,0 +1,19 @@
+.post-blog {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.leia-mais {
+  padding: 8px;
+  margin: 16px;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  background-color: #E6E7E8;
+  text-decoration: none; 
+}
+
+.tag a {
+  text-decoration: none;
+}

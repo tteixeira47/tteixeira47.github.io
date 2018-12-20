@@ -49,23 +49,6 @@ p {
   color: #851944;
 }
 
-.citacao-bio {
-  background-color: #D9E5E3;
-  margin: 10px 30px;
-  padding: 20px;
-  border: 10px solid #C2CCCA;
-  width: 250px;
-  box-sizing: border-box;
-}
-
-.fiat {
-  float: right;
-}
-
-.petrobras {
-  float: left;
-}
-
 .navegacao-site {
   background-color: #3C1D3D;
   color: #F2FFFC;
@@ -126,21 +109,15 @@ main {
 }
 
 .github {
-  background-image: url(github.png);
+  background-image: url(../img/icon/github.png);
 }
 
 .twitter {
-  background-image: url(twitter.png);
+  background-image: url(../img/icon/twitter.png);
 }
 
 .linkedin {
-  background-image: url(linkedin.png);
-}
-
-.post-blog {
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 20px;
+  background-image: url(../img/icon/linkedin.png);
 }
 
 #rodape {
@@ -151,24 +128,4 @@ main {
   position: fixed;
   bottom: 0px;
   width: 100%;
-}
-
-.leia-mais {
-  padding: 8px;
-  margin: 16px;
-  text-align: center;
-  display: block;
-  font-size: 30px;
-  background-color: #E6E7E8;
-  text-decoration: none; 
-}
-
-.tag a {
-  text-decoration: none;
-}
-
-cite {
-  text-align: right;
-  display: block;
-  font-style: italic;
 }
