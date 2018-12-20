@@ -36,3 +36,11 @@ O seletor de classe é o ponto (.)
 ```html
 <ul class="social-media social-media-rodape">
 ```
+
+## 9 Nem tudo é o que parece
+
+Para deixar o texto em caixa alte é possível usar o seguinte CSS:
+
+```css
+text-transform: uppercase;
+```
