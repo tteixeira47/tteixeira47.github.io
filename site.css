@@ -30,6 +30,7 @@ p {
   margin: 0px;
   border-bottom: 10px solid #000;
   font-size: 60px;
+  text-transform: uppercase;
 }
 
 .linha-do-tempo {
