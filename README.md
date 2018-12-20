@@ -117,3 +117,43 @@ Com essa propriedade, o elemento é deslocado em alguns pixels de sua posição 
 ```
 
 >Fixed fixa o elemento em relação à tela
+
+# PARTE 2 - HTML & CSS Avançado
+
+## 1 - Pixels
+
+### Medidas relativas
+
+O tamanho da fonte é definido de acordo com a medida do navegador
+
+>Elementos usam medidas de outros elementos como referência
+
+#### Medida rem
+
+Utiliza o tamanho da fonte do navegador como base
+
+```css
+.classe {
+  font-size: 1.25rem;
+}
+```
+
+#### Medida ch
+
+Utiliza a largura do caracter 0 utilizado
+
+```css
+.classe {
+  font-size: 1.25ch;
+}
+```
+
+#### Medida em
+
+Utiliza o tamanho da fonte do elemento como base
+
+```css
+.classe {
+  font-size: 1.25em;
+}
+```

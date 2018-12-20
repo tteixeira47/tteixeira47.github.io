@@ -1,96 +1,56 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt">
 <head>
-  <title>Biografia - João da Silva</title>
-  <meta charset="utf-8">
-  <link rel="icon" href="img/favicon.png">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/site.css">
-  <link rel="stylesheet" href="css/bio.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600">
+    <meta charset="UTF-8">
+    <title>João da Silva - Desenvolvedor Web</title>
+    <link rel="shortcut icon" href="imagens/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
 </head>
-
 <body>
-  <main>
-    <div class="titulo-da-pagina">
-      <h1>Sobre mim</h1>
-    </div>
-
-    <div class="container">
-      <p>Moro em São Paulo mas atendo clientes do mundo todo. Sou conhecido por fazer produtos de <em>qualidade</em>,
-        <em>durabilidade</em> e que <em>agregam valor</em> para meus clientes.</p>
-
-      <p>Trabalho usando a web como plataforma, ou seja, respiro HTML5, CSS3 e JavaScript (ou melhor: ECMASCript).
-        Crio sites para todos, seguindo as principais diretivas de acessibilidade, responsividade e web
-        semântica,
-        sem descuidar da qualidade de código.</p>
-
-      <h2>Como trabalho</h2>
-
-      <blockquote class="citacao-bio fiat">
-        <p>João é o melhor desenvolvedor front-end com quem já trabalhei. Muito eficiente e muito capaz.
-          Recomendo
-          sem dúvidas!</p>
-        <cite>José Souza, <a href="https://www.fiat.com" target="_blank">Fiat</a></cite>
-      </blockquote>
-
-      <p>Satisfazer meus clientes é prioridade. Para isso, garanto um processo de desenvolvimento altamente
-        interativo, baseado em feedback contínuo. <strong>Não trabalho com escopo fechado</strong>: o cliente é que
-        decide quando o produto está pronto.</p>
-
-      <p>Também não trabalho com prazos fechados: <strong>qualidade é importante demais para ser sacrificada.</strong></p>
-
-      <h2>Experiência</h2>
-      
-      <blockquote class="citacao-bio petrobras">
-        <p>João domina as tecnologias como ninguém. Eu apresentava um problema, ele tinha na ponta da língua a
-          solução mais adequada com as tecnologias mais recentes.</p>
-        <cite>Manoel Santos, <a href="https://www.petrobras.com.br" target="_blank">Petrobrás</a></cite>
-      </blockquote>
-      
-      <p>Já desenvolvi projetos para grandes empresas como <a href="https://www.bmw.com" target="_blank">BMW</a>,
-        <a href="https://www.uol.com.br" target="_blank">UOL</a> e <a href="https://www.ibm.com.br" target="_blank">IBM</a>.
-        Neles, o foco principal era entregar uma experiência imersiva e impactante para o usuário final sem
-        descuidar do desempenho e da acessibilidade da página.</p>  
-      
-        <p>Também já fui contratado para transformar grandes portais, como Terra e G1, em páginas responsivas. Fui
-        responsável por renovar o layout, reorganizar o conteúdo e re-escrever o código de forma mais
-        reaproveitável.</p>      
-
-      <h2>Comunidade</h2>
-
-      <p>Procuro repassar meu conhecimento para a comunidade. Para isso, já dei diversas palestras e mantenho <a href="blog.html"
-          target="_blank">um blog</a>.</p>
-    </div>
-  </main>
-
-  <img class="foto-joao" src="img/eu.jpg" alt="Foto de João da Silva">
-
-  <aside class="navegacao-site">
-    <h1>João da Silva</h1>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfólio</a></li>
-        <li><a href="index.html">Sobre mim</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-
-    <ul class="social-media">
-      <li><a class="github" href="https://www.github.com/joaodasilva">GitHub</a></li>
-      <li><a class="twitter" href="https://www.twitter.com/joaodasilva">Twitter</a></li>
-      <li><a class="linkedin" href="https://www.linkedin.com/joaodasilva">LinkedIn</a></li>
-    </ul>
-  </aside>
-
-  <footer id="rodape">
-    &copy; João da Silva 2014.
-  </footer>
+    <header class="titulo-principal">
+        <img class="foto-home" src="imagens/eu.jpg" alt="Foto de João da Silva">
+        <h1>João da Silva</h1>
+        <p class="subtitulo-principal">Desenvolvedor web</p>
+    </header>
+    <main>
+        <section class="secao-inicio saudacao">
+            <p class="saudacao"><span class="saudacao-inicio">Olá,</span> meu nome é <strong>João da Silva</strong> <span class="saudacao-ultima-linha">e eu construo <em>sites maravilhosos</em></span></p>
+            <a class="botao-index" href="bio.html">Conheça mais um pouco sobre mim</a>
+        </section>
+        <section class="secao-inicio trabalhos">
+            <h2>Trabalhos</h2>
+            <ul>
+                <li><img src="imagens/bmw.png" alt="Site da BMW"></li>
+                <li><img src="imagens/ibm.png" alt="Site da IBM"></li>
+                <li><img src="imagens/uol.png" alt="Site da UOL"></li>
+            </ul>
+            <a class="botao-index" href="portfolio.html">Veja mais</a>
+        </section>
+        <section class="secao-inicio blog">
+            <h2>Blog</h2>
+            <small>Últimos posts</small>
+            <ol>
+                <li>
+                    <a href="blog.html">O essencial de design responsivo</a>
+                </li>
+                <li>
+                    <a href="blog.html">Por que fazer páginas acessíveis?</a>
+                </li>
+                <li>
+                    <a href="blog.html">JavaScript não obstrusivo</a>
+                </li>
+            </ol>
+            <a class="botao-index" href="blog.html">Veja mais</a>
+        </section>
+    </main>
+    <footer>
+        <h2>Vamos conversar?</h2>
+        <p>Você pode entrar em contato comigo <a href="contato.html">por e-mail</a> ou pelo telefone <a href="tel:+551234567890">(12) 3456-7890</a></p>
+    </footer>
 </body>
-
 </html>

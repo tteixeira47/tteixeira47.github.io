@@ -1,6 +1,6 @@
 body {
   font-family: 'Crimson Text', 'Times New Roman', sans-serif;
-  font-size: 20px;
+  font-size: 1rem;
   background-color: #F2FFFC;
   line-height: 1.5;
 }
@@ -20,29 +20,29 @@ em {
 
 p {
   text-align: justify;
-  margin: 20px 0px;
+  margin: 1rem 0px;
 }
 
 .titulo-da-pagina h1 {
   text-align: center;
   background-color: #851644;
   color: #FFF;
-  padding: 20px;
-  margin: 0px;
-  border-bottom: 10px solid #000;
-  font-size: 60px;
+  padding: 1.25rem;
+  margin: 0;
+  border-bottom: .5rem solid #000;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
 .container {
   width: 720px;
   margin: auto;
-  padding: 30px 0px;
-  padding-bottom: 80px;
+  padding: .5em 0;
+  padding-bottom: 4rem;
 }
 
 .container h2 {
-  font-size: 30px;
+  font-size: 1.5rem;
 }
 
 .container a {
@@ -53,9 +53,9 @@ p {
   background-color: #3C1D3D;
   color: #F2FFFC;
   text-align: center;
-  padding: 5px;
-  border-left: 10px solid #000;
-  border-bottom: 10px solid #000;
+  padding: .25rem;
+  border-left: .5rem solid #000;
+  border-bottom: .5rem solid #000;
   box-sizing: border-box;
   width: 15%;
   position: relative;
@@ -66,8 +66,8 @@ p {
   border-left: 10px solid #000;
   border-bottom: 10px solid #000;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
 }
 
 .navegacao-site a {
@@ -77,14 +77,14 @@ p {
 }
 
 .navegacao-site h1 {
-  font-size: 30px;
-  margin: 25px;
+  font-size: 1.5rem;
+  margin: 1.25rem;
   text-transform: uppercase;
 }
 
 .navegacao-site ul {
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
 
 .navegacao-site, img {
@@ -123,9 +123,9 @@ main {
 #rodape {
   background-color: #000;
   color: #F2FFFC;
-  padding: 20px;
+  padding: 1rem;
   clear: both;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
 }
