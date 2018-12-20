@@ -63,15 +63,57 @@ Substituir o texto de um link por uma imagem
 Para que elementos possam flutuar no seu bloco, é utliizado o seguinte CSS:
 
 ```css
-float: right;
+img {
+  float: right;
+}
 ```
 Para impedir que um elemento tenha um float na sua linha:
 
 ```css
-clear: right;
+img {
+  clear: right;
+}
 ```
 
 >Todos os elementos flutuantes ficam em uma linha
 
 >Corrigir o posicionamento dos elementos não flutuantes é chamado de *clearfix*
 
+## 10 - Elementos onde quisermos
+
+### Posição relativa
+
+Com essa propriedade, o elemento é deslocado em alguns pixels de sua posição original
+
+```css
+.foto-joao {
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+```
+
+>Relative respeita o fluxo da página
+
+### Posição absoluta
+
+```css
+.foto-joao {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+```
+
+>Absolute não respeita o fluxo da página e é relativo à janela do navegador
+
+### Posição fixa
+
+```css
+#rodape {
+  position: fixed;
+  bottom: 0px;
+}
+```
+
+>Fixed fixa o elemento em relação à tela
