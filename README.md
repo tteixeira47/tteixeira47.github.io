@@ -163,3 +163,22 @@ Utiliza o tamanho da fonte do elemento como base
 Quando queremos tirar um elemento do fluxo e posicioná-lo em qualquer ponto da página
 
 >É preciso definir o position do elemento pai (o mesmo não pode ser static)
+
+## 3 - Border Radius e novidades CSS3
+
+Propriedade criada para arredondar bordas.
+
+Propriedades beta são lidas de forma diferente em diferentes navegadores.
+
+Portanto, é usado um prefixo pra identificar o navegador:
+
+```css
+div {
+  -webkit-border-radius: 10 10 10 10 / 5 5 5 5;
+  -moz-border-radius: 10 10 10 10;
+}
+```
+
+>Future proof: escrever a funcionalidade sem prefixo também
+
+Site para testar funcionalidades: [CanIUse](https://caniuse.com)
