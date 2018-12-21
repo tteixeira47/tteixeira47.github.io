@@ -157,3 +157,9 @@ Utiliza o tamanho da fonte do elemento como base
   font-size: 1.25em;
 }
 ```
+
+## 2 - Absolute
+
+Quando queremos tirar um elemento do fluxo e posicioná-lo em qualquer ponto da página
+
+>É preciso definir o position do elemento pai (o mesmo não pode ser static)

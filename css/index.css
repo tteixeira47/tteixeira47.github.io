@@ -1,104 +1,202 @@
+.palavra-home {
+  font-family: 'Shadows Into Light', Tahoma, sans-serif;
+  color: #D2527F;
+  list-style-type: none;
+  font-size: 1.25em;
+}
+
+.eficiencia {
+  position: absolute;
+  top: 20%;
+  left: 75%;
+}
+
+.boas-praticas {
+  position: absolute;
+  top: 10%;
+  left: 60%;
+}
+
+.codigo-limpo {
+  position: absolute;
+  top: 15%;
+  right: 60%;
+}
+
+.css3 {
+  position: absolute;
+  top: 83%;
+  right: 30%;
+}
+
+.html5 {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+}
+
+.javascript {
+  position: absolute;
+  top: 47%;
+  right: 65%;
+}
+
+.acessibilidade {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.responsivo {
+  position: absolute;
+  top: 52%;
+  right: 75%;
+}
+
+.otimizacoes {
+  position: absolute;
+  top: 24%;
+  left: 16%
+}
+
+.agilidade {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+
+.design {
+  position: absolute;
+  top: 90%;
+  left: 12%;
+}
+
+.inicio-post {
+  background-color: #FFF;
+  position: absolute;
+  top: 8em;
+  right: 12em;
+  height: 6em;
+  padding: 1em;  
+}
+.titulo-da-pagina {
+  position: relative;
+}
 .foto-home {
-    height: 200px;
-    display: block;
-    margin: auto;
+  height: 200px;
+  display: block;
+  margin: auto;
 }
 .secao-inicio {
-    padding: 2em;
+  padding: 2em;
 }
 .saudacao p {
-    color: #99A;
-    line-height: 1;
-    font-size:1.5em;
-    padding: 2em;
+  color: #99A;
+  line-height: 1;
+  font-size:1.5em;
+  padding: 2em;
 }
 .saudacao-inicio {
-    color: #889;
-    font-size: 3em;
+  color: #889;
+  font-size: 3em;
 }
 .saudacao-ultima-linha {
-    text-align: right;
-    display: block;
+  text-align: right;
+  display: block;
 }
 .saudacao strong {
-    color: #000;
-    font-size: 2em;
+  color: #000;
+  font-size: 2em;
 }
 .saudacao em {
-    color: #851944;
-    font-size: 4rem;
+  color: #851944;
+  font-size: 4rem;
 }
 .botao-index {
-    font-size:1.25em;
-    background-color: #851944;
-    color: #FFF;
-    border: .2em solid black;
-    width: 40ch;
-    display: block;
-    margin: 2em auto;
-    padding: 1rem;
-    text-align: center;
+  font-size:1.25em;
+  background-color: #851944;
+  color: #FFF;
+  border: .2em solid black;
+  width: 40ch;
+  display: block;
+  margin: 2em auto;
+  padding: 1rem;
+  text-align: center;
 }
 .secao-inicio h2 {
-    font-size: 3em;
-    text-transform: uppercase;
-    margin-bottom: .5em;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+  text-shadow: 2px 2px #000;
 }
 .trabalhos {
-    background-color: #3C1D3D;
-    border-top: .5em solid #000;
-    border-bottom: .5em solid #000;
+  background-color: #3C1D3D;
+  border-top: .5em solid #000;
+  border-bottom: .5em solid #000;
 }
 .trabalhos h2 {
-    color: #FFF;
+  color: #FFF;
 }
 .trabalhos ul {
-    overflow: hidden;
-    border: .5em solid black;
-    padding: 0;
+  overflow: hidden;
+  border: .5em solid black;
+  padding: 0;
 }
 .trabalhos li {
-    float: left;
-    width: 33.333%;
-    list-style-type: none;
+  float: left;
+  width: 33.333%;
+  list-style-type: none;
 }
 .trabalhos img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }   
 .blog {
-    background-color: #999;
-    color: #FFF;
-    border-bottom: 10px solid #851944;
+  background-color: #999;
+  border-bottom: 10px solid #851944;
+  position: relative;
 }
 .blog small {
-    font-size: 1.25em;
-    position: relative;
-    top: -2em;
+  font-size: 1.25em;
+  position: relative;
+  top: -2em;
+  color: #FFF;
+}
+.blog h2 {
+  color: #FFF;
 }
 .blog ol {
-    list-style-type: none;
-    text-align: left;
-    padding: 0;
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
 }
 .blog li a {
-    color: #FCF;
-    padding: .5em;
-    display: block;
+  color: #FCF;
+  padding: .5em;
+  display: block;
+}
+.blog .mais-recente {
+  background-color: #FFF;
+}
+.blog .mais-recente a {
+  color: #F26;
+}
+.blog li {
+  width: 30%;
 }
 footer {
-    background-color: #000;
-    color: #FFF;
-    padding: 2em;
+  background-color: #000;
+  color: #FFF;
+  padding: 2em;
 }
 footer a {
-    color: #F99;
+  color: #F99;
 }
 footer h2 {
-    font-size: 3em;
+  font-size: 3em;
 }
 main {
-    width: 100%;
-    padding-bottom: 0;
-    float: none;
+  width: 100%;
+  padding-bottom: 0;
+  float: none;
 }
