@@ -182,3 +182,20 @@ div {
 >Future proof: escrever a funcionalidade sem prefixo também
 
 Site para testar funcionalidades: [CanIUse](https://caniuse.com)
+
+## 4 - Transformações geomátricas
+
+*transform* é a propriedade usada para transformar um objeto geométrico
+
+```css
+div {
+  transform: rotate(30deg) skew(20deg) scale(1.2) translate(10px, 15px);
+}
+```
+
+```css
+div {
+  transform-style: preserve-3d;
+}
+```
+

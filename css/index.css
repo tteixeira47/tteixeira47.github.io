@@ -1,3 +1,29 @@
+.banner-twitter {
+  width: 14em;
+  line-height: 1;
+  padding: 1em 0;
+  box-sizing: border-box;
+  
+  background-color:#3C1D3D;
+  border: .25em solid #000;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  
+  font-size: 1.2em;
+  font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform-origin: 0 0;
+  transform: translate(6.5754em, -2.4749em) rotate(45deg);
+}
+
+.titulo-da-pagina {
+  position: relative;
+}
+
 .palavra-home {
   font-family: 'Shadows Into Light', Tahoma, sans-serif;
   color: #D2527F;
@@ -9,66 +35,77 @@
   position: absolute;
   top: 20%;
   left: 75%;
+  transform: translate(-50%, -50%) rotate(30deg) translateZ(-.5em);
 }
 
 .boas-praticas {
   position: absolute;
   top: 10%;
   left: 60%;
+  transform: translateZ(.5em) rotate(15deg);
 }
 
 .codigo-limpo {
   position: absolute;
   top: 15%;
   right: 60%;
+  transform: translateZ(.5em) rotate(-30deg);
 }
 
 .css3 {
   position: absolute;
   top: 83%;
   right: 30%;
+  transform: rotate(-15deg);
 }
 
 .html5 {
   position: absolute;
   top: 50%;
   right: 40%;
+  transform: rotate(15deg);
 }
 
 .javascript {
   position: absolute;
   top: 47%;
   right: 65%;
+  transform: rotate(35deg);
 }
 
 .acessibilidade {
   position: absolute;
   top: 10%;
   right: 10%;
+  transform: rotate(10deg);
 }
 
 .responsivo {
   position: absolute;
   top: 52%;
   right: 75%;
+  transform: rotate(-20deg);
 }
 
 .otimizacoes {
   position: absolute;
   top: 24%;
-  left: 16%
+  left: 16%;
+  transform: rotate(-30deg);
 }
 
 .agilidade {
   position: absolute;
   top: 5%;
   left: 10%;
+  transform: rotate(-5deg);
 }
 
 .design {
   position: absolute;
   top: 90%;
   left: 12%;
+  transform: rotate(-15deg);
 }
 
 .inicio-post {
@@ -78,10 +115,8 @@
   right: 12em;
   height: 6em;
   padding: 1em;  
-}     
-.titulo-da-pagina {
-  position: relative;
 }
+
 .foto-home {
   height: 200px;
   display: block;
@@ -113,6 +148,8 @@
 .saudacao em {
   color: #851944;
   font-size: 4rem;
+  display: inline-block;
+  transform: rotate(-5deg) skew(5deg); 
 }
 .botao-index {
   font-size:1.25em;
