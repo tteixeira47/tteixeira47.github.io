@@ -183,7 +183,7 @@ div {
 
 Site para testar funcionalidades: [CanIUse](https://caniuse.com)
 
-## 4 - Transformações geomátricas
+## 4 - Transformações geométricas
 
 *transform* é a propriedade usada para transformar um objeto geométrico
 
