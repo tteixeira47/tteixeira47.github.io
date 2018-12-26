@@ -121,8 +121,8 @@
   height: 200px;
   display: block;
   margin: auto;
-  -webkit-border-radius: 10% 50% / 50% 10%;
-  border-radius: 10% 50% / 50% 10%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 .secao-inicio {
   padding: 2em;
