@@ -199,3 +199,12 @@ div {
 }
 ```
 
+## 5 - Sombras e opacidade
+
+```css
+text-shadow: 0 0 1em #000;
+box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
+
+background-color: rgba(0, 0, 0, .3);
+opacity: .3;
+```

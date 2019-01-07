@@ -13,6 +13,7 @@ h2,
 
 h1 {
     text-transform: uppercase;
+    text-shadow: 2px 2px #000;
     font-size: 3em;
 }
 
@@ -57,7 +58,7 @@ main p {
 }
 
 .rodape-pagina {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, .8);
     color: #F2FFFC;
     padding: 1em;
     clear: both;
