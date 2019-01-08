@@ -59,6 +59,9 @@
     background-color: #3C1D3D;
     border-top: .5em solid #000;
     border-bottom: .5em solid #000;
+    background-image: linear-gradient(135deg, transparent, transparent 14px, black 14px, black 15px, transparent 15px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 .trabalhos h2 {
     color: #FFF;
@@ -79,7 +82,9 @@
     background-color: #999;
     position: relative;
     color: #FFF;
-    border-bottom: .5em solid #851944;
+    background-image: linear-gradient(45deg, transparent, transparent 14px, white 14px, white 15px, transparent 15px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 .blog small {
     position: relative;

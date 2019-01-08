@@ -208,3 +208,41 @@ box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
 background-color: rgba(0, 0, 0, .3);
 opacity: .3;
 ```
+## 6 - Gradiente
+
+```css
+background-image: linear-gradient(to bottom right, white, red, black);
+
+background-repeat: no-repeat;
+background-size: 80% 5px;
+background-position: 50% 50%;
+
+background-image: radial-gradient(yellow, red);
+```
+
+## 6 - Seletores avançados
+
+Para selecionar **todos** os elementos depois de outro elemento é usado o *~*
+
+```css
+li ~ li {
+  margin-top: 2px;
+}
+```
+Para selecionar **o primeiro** os elementos depois de outro elemento é usado o *+*
+
+```css
+li + li {
+  margin-top: 2px;
+}
+```
+
+Para selecionar **o filho** de um elemento é usado o >*
+
+```css
+div > p {
+  margin-top: 2px;
+}
+```
+
+>Também existem outros seletores como *[$]* que escolhe o que está escrito no final do arquivo e *[^]* que escolhe o início.
